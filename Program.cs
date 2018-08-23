@@ -16,7 +16,7 @@ namespace WebApplication5
         {
             BuildWebHost(args).Run();
         }
-
+//sjsj
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
